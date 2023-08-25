@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="x-icon" href="/images/small-logo.png">
+  <title>Jasmine Wang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+  <!-- media queries -->
+  <!-- <link rel="stylesheet" media="only screen and (max-width: 1024px) and (orientation: portrait)" href="widescreen.css">
+  <link rel="stylesheet" media="only screen and (max-width: 630px) and (orientation: portrait)" href="smallscreen.css"> -->
+  <link rel="stylesheet" media="screen and (max-width: 1024px)" href="widescreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 630px)" href="smallscreen.css">
+  <!-- might need and (-webkit-min-device-pixel-ratio: 2) -->
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo-container">
+      <a href="index.html"><img src="/images/logo.png" alt="logo" class="logo"></a>
+    </div>
+
+    <ul class="navigation">
+      <a href="project.html"><li>Projects</li></a>
+      <a target="_blank" href="Resume 2023.7.pdf"><li>Resume</li></a>
+    </ul>
+  </div>
+
+  <main>
+    <div class="hero">
+      <div class="text-container">
+        <div class="line-one">
+          <h3>Hey! I'm </h3>
+        </div>
+        <div class="line-two">
+          <img src="/images/name_short.png" alt="Jasmine Wang" class="name-img">
+          <h1 class="fancy">
+            <span class="letter">W</span>
+            <span class="letter">A</span>
+            <span class="letter">N</span>
+            <span class="letter">G</span>
+            <span class="letter">.</span>
+          </h1>
+        </div>
+        <div class="line-four">
+          <h6>I'm an art and design student <b class="fancy" id="atPenn">@Penn</b>.</h6>
+        </div>
+
+        <div class="line-five">
+          <h6>I design for the <b class="fancy">Root Causes</b> and address the <br>
+            <b class="fancy">Unconscious Needs</b> for the users.</h6>
+        </div>
+      </div>
+
+      <div class="gif-container">
+        <img src="/images/me.GIF" alt="gif" class="me-gif">
+      </div>
+    </div>
+
+  </main>
+
+  <div class="project-display">
+    <div class="title-index">
+      <h4>Project Highlights</h4>
+    </div>
+
+    <div class="project-hero">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <div class="image-container">
+            <div class="project-img-container">
+              <a href="collabcube.html"><img src="/images/collabcube big.png" alt="collabcube-big" class="big-project"></a>
+            </div>
+            <div class="faded-text-container">
+              <img src="/images/collabcube bg.png" alt="collabcube" class="year-img">
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <div class="image-container">
+            <div class="project-img-container big-project2">
+              <a href="artify.html"><img src="/images/artify big.png" alt="artify-big"></a>
+            </div>
+            <div class="faded-text-container">
+              <img src="/images/artify bg.png" alt="artify" class="year-img">
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <div class="image-container">
+            <div class="project-img-container big-project3">
+              <a href="re.html"><img src="/images/Re_ big.png" alt="Re-big"></a>
+            </div>
+            <div class="faded-text-container">
+              <img src="/images/re bg.png" alt="Re:" class="year-img">
+            </div>
+          </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)"><img src="/images/backward.svg" alt="backward"></a>
+        <a class="next" onclick="plusSlides(1)"><img src="/images/forward.svg" alt="forward"></a>
+      </div>
+      <br>
+
+      <div style="text-align:center" class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-index">
+    <div class="contact">
+      <p>Developed with code and lots of &#10084</p>
+      <p><b>lianxunw2023@gmail.com</b></p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

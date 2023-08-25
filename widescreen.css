@@ -1,0 +1,237 @@
+body{
+    max-width: 100%;
+}
+
+.fancy > .letter{
+    padding: 4px;
+}
+
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+    padding-left: 90px;
+    padding-top: 60px;
+}
+  
+.logo{
+    height: auto;
+    width: 70px;
+}
+
+.navigation{
+    height: 100%;
+    padding-right: 70px;
+    padding-top: 74px;
+}
+  
+.navigation a li{
+    display: table-cell;
+    padding: 25px;
+    padding-top: 10px;
+    vertical-align: middle;
+    color:#000000;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.hero{
+    display: flex;
+    position: relative;
+    padding-left: 80px;
+}
+
+.name-img{
+    width: 500px;
+    margin-left: -80px;
+    margin-top: 10px;
+}
+  
+.text-container{
+    width: 30%;
+    margin-top: 120px;
+}
+  
+.gif-container{
+    margin-left: 80px;
+    /* margin-right: 100px; */
+}
+  
+.gif-container img{
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+    /* background-color: brown; */
+}
+
+
+h1{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 160px;
+}
+
+.line-two{
+    width: 800px;
+}
+
+.line-four{
+    width: 400px;
+    margin-top: -10px;
+}
+
+.line-five{
+    width: 500px;
+}
+
+h6{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.project-display{
+    margin-top: -180px;
+}
+
+h4{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100px;
+}
+
+.slideshow-container {
+    max-width: 1024px;
+    max-height: 600px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.project-img-container img {
+    margin-top: -180px;
+    max-width: 500px;
+    max-height: 500px;
+    z-index: 1;
+    transition: transform 0.6s;
+  }
+
+.project-hero{
+    height: 800px;
+    text-align: center;
+}
+
+.faded-text-container img{
+    width: 700px;
+}
+
+.fancy{
+    margin-top: -20px;;
+}
+
+.footer{
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-index{
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.projects {
+    padding-top: 60px;
+}
+
+.project-img{
+    width: 800px;
+    align-self: center;
+}
+
+.projectbox{
+    max-height: auto;
+    max-width: 1550px;
+    display: block;
+    align-content: center;
+    margin: 140px auto 0;
+}
+
+.title-img1{
+    max-width: 800px;
+    margin-left: 100px;
+}
+
+.title-img2{
+    max-width: 600px;
+    margin-left: 170px;
+}
+
+.text-column{
+    width: 920px;
+    height: 450px;
+    margin-left: -20px;
+    display: flex; /* Use Flexbox to align the inner container */
+    justify-content: center; /* Horizontally center the inner container */
+    align-items: center; /* Vertically center the inner container */
+}
+
+h3{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 60px;
+}
+
+h5{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.description{
+    margin-top: 20px;
+    width: 650px;
+}
+
+.button{
+    margin-top: -70px;
+}
+
+.figma-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+}
+
+.banner img{
+    width: 820px;
+}
+
+
+.style-guide img{
+    width: 500px;
+}
+
+.item2 video {
+    width: 250px;
+    
+}
+  
+.item1 img {
+    width: 300px;
+}
