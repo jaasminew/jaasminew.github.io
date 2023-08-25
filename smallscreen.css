@@ -7,6 +7,10 @@ body{
   .project-display {
     display: none; /* Element is hidden on smaller screens */
   }
+
+ .nav-bar{
+    display: none; /* Element is hidden on smaller screens */
+  }
 }
 
 .fancy > .letter{
@@ -215,7 +219,7 @@ h4{
     padding: 20px;
     text-align: center;
     margin-top: -60px;
-    margin-left: 30px;
+    padding-left: 30px;
 }
 
 .footer-project{
@@ -360,7 +364,7 @@ ul.navbar a:hover{
     display: flex;
     flex-wrap: nowrap; /* Prevent content from wrapping to the next line */
     overflow-x: auto; /* Enable horizontal scrolling */
-    width: 70vw; /* Take up the full viewport width */
+    width: 90vw; /* Take up the full viewport width */
     white-space: nowrap; /* Prevent content from wrapping inside the container */
 }
   
