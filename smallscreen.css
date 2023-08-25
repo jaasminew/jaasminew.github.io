@@ -2,6 +2,13 @@ body{
     max-width: 100%;
 }
 
+/* mobile.css - Media query for smaller screens (e.g., phone) */
+@media screen and (max-width: 768px) {
+  .project-display {
+    display: none; /* Element is hidden on smaller screens */
+  }
+}
+
 .fancy > .letter{
     padding: 4px;
 }
