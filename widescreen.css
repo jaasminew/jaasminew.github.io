@@ -219,7 +219,8 @@ h5{
 }
 
 .banner img{
-    width: 820px;
+    max-width: 100%;
+    height: auto;
 }
 
 
