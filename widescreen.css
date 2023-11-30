@@ -161,14 +161,23 @@ h4{
     align-self: center;
 }
 
+.projects h6{
+    margin-left: 10vw;
+    margin-bottom: 40px;
+  }
+  
+
 .projectbox{
     max-height: auto;
     max-width: 1550px;
     display: block;
     align-content: center;
-    margin: 140px auto 0;
+    margin: 0px auto 0;
 }
 
+.img-column img{
+    max-width: 70vw;
+}
 .title-img1{
     max-width: 800px;
     margin-left: 100px;
