@@ -49,6 +49,7 @@ body{
 }
 
 .hero{
+    height: 1100px;
     display: block;
     position: relative;
     padding: 40px;
