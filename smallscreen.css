@@ -237,12 +237,18 @@ h4{
     align-self: center;
 }
 
+.projects h6{
+    margin-left: 20vw;
+    margin-bottom: 40px;
+  }
+  
 .projectbox{
     max-height: auto;
     max-width: 1550px;
     display: block;
     align-content: center;
-    margin-top: 140px;
+    margin-top: 0px;
+    margin-bottom: 200px;
 }
 
 .title {
