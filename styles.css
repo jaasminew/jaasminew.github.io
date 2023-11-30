@@ -393,12 +393,17 @@ h6{
   align-items: center;
 }
 
+.projects h6{
+  margin-left: 7vw;
+  margin-bottom: 40px;
+}
+
 .projectbox{
   max-height: auto;
   max-width: 1550px;
   display: flex;
   align-content: center;
-  margin: 140px auto 0;
+  margin: 10px auto 100px;
 }
 
 .text h3{
