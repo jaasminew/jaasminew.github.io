@@ -392,7 +392,7 @@ h6{
 }
 
 .body-text img{
-  max-width: 65vw;
+  max-width: 68vw;
   margin-left: 100px;
 }
 
@@ -643,16 +643,15 @@ video::-webkit-media-controls-mute-button {
 
 .item2 {
   flex: 1;
-  padding: 10px;
 }
 
 .item2 video {
-  width: 600px;
+  width: 25vw;
   
 }
 
 .item1 img {
-  width: 780px;
+  width: 40vw;
 }
 
 .container3{
